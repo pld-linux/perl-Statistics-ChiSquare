@@ -25,7 +25,8 @@ Summary(zh_CN):	Statistics::ChiSquare Perl Ä£¿é
 Name:		perl-Statistics-ChiSquare
 Version:	0.5
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1c02a8eabeed699e0e8b2de9f09dc2ca
