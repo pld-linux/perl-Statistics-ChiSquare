@@ -1,4 +1,7 @@
+#
+# Conditional build:
 %bcond_without	tests	# don't perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	ChiSquare
@@ -44,12 +47,14 @@ Statistics::ChiSquare - Jak bardzo losowe s± twoje dane?
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
