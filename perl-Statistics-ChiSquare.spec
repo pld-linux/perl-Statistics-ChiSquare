@@ -3,8 +3,8 @@
 %bcond_without	tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Statistics
-%define	pnam	ChiSquare
+%define		pdir	Statistics
+%define		pnam	ChiSquare
 Summary:	Statistics::ChiSquare Perl module
 Summary(cs):	Modul Statistics::ChiSquare pro Perl
 Summary(da):	Perlmodul Statistics::ChiSquare
