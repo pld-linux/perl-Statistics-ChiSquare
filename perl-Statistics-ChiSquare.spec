@@ -4,8 +4,8 @@
 Summary:	Statistics::ChiSquare perl module
 Summary(pl):	Modu³ perla Statistics::ChiSquare
 Name:		perl-Statistics-ChiSquare
-Version:	0.2
-Release:	6
+Version:	0.3
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,14 +24,14 @@ Statistics::ChiSquare - Jak bardzo losowe s± twoje dane?
 %setup -q -n %{pdir}
 
 %build
-cd ChiSquare
+cd ChiSquare-%{version}
 perl Makefile.PL
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-cd ChiSquare
+cd ChiSquare-%{version}
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 gzip -9nf Changes
@@ -41,6 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChiSquare/*.gz
+%doc ChiSquare-%{version}/*.gz
 %{perl_sitelib}/Statistics/ChiSquare.pm
+%{perl_sitelib}/auto/Statistics/ChiSquare
 %{_mandir}/man3/*
