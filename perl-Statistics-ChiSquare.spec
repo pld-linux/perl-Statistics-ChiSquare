@@ -26,7 +26,7 @@ Statistics-ChiSquare - Jak bardzo losowe s± twoje dane?
 %build
 cd ChiSquare
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
