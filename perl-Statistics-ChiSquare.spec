@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Statistics::ChiSquare
 Summary(it):	Modulo di Perl Statistics::ChiSquare
 Summary(ja):	Statistics::ChiSquare Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Statistics::ChiSquare ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Statistics::ChiSquare
+Summary(nb):	Perlmodul Statistics::ChiSquare
 Summary(pl):	Modu³ Perla Statistics::ChiSquare
 Summary(pt):	Módulo de Perl Statistics::ChiSquare
 Summary(pt_BR):	Módulo Perl Statistics::ChiSquare
