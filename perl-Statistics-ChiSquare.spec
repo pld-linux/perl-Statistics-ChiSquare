@@ -44,7 +44,7 @@ Statistics::ChiSquare - Jak bardzo losowe s± twoje dane?
 
 %build
 cd ChiSquare-%{version}
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 %{!?_without_tests:%{__make} test}
 
