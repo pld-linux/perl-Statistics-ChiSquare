@@ -63,5 +63,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/Statistics/ChiSquare.pm
 # empty autosplit.ix
 #%dir %{perl_sitelib}/auto/Statistics/ChiSquare
-#%{perl_sitelib}/auto/Statistics/ChiSquare/autosplit.ix
+#%%{perl_sitelib}/auto/Statistics/ChiSquare/autosplit.ix
 %{_mandir}/man3/*
