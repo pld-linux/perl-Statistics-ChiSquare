@@ -46,7 +46,7 @@ Statistics::ChiSquare - Jak bardzo losowe s± twoje dane?
 %build
 cd ChiSquare-%{version}
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 
