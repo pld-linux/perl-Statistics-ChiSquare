@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Statistics::ChiSquare
 Summary(zh_CN):	Statistics::ChiSquare Perl дё©И
 Name:		perl-Statistics-ChiSquare
 Version:	0.3
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
