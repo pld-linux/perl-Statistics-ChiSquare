@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Statistics
 %define	pnam	ChiSquare
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics-ChiSquare perl module
 Summary(pl):	Modu³ perla Statistics-ChiSquare
 Name:		perl-Statistics-ChiSquare
 Version:	0.2
-Release:	5
-
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Statistics-ChiSquare - How random is your data?
 Statistics-ChiSquare - Jak bardzo losowe s± twoje dane?
 
 %prep
-%setup -q -n Statistics
+%setup -q -n %{pdir}
 
 %build
 cd ChiSquare
