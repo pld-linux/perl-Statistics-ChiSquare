@@ -3,7 +3,7 @@ Summary:	Statistics-ChiSquare perl module
 Summary(pl):	Modu³ perla Statistics-ChiSquare
 Name:		perl-Statistics-ChiSquare
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
