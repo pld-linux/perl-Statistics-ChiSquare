@@ -6,22 +6,22 @@
 %define		pdir	Statistics
 %define		pnam	ChiSquare
 Summary:	Statistics::ChiSquare Perl module
-Summary(cs):	Modul Statistics::ChiSquare pro Perl
-Summary(da):	Perlmodul Statistics::ChiSquare
-Summary(de):	Statistics::ChiSquare Perl Modul
-Summary(es):	MÛdulo de Perl Statistics::ChiSquare
-Summary(fr):	Module Perl Statistics::ChiSquare
-Summary(it):	Modulo di Perl Statistics::ChiSquare
-Summary(ja):	Statistics::ChiSquare Perl •‚•∏•Â°º•Î
-Summary(ko):	Statistics::ChiSquare ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Statistics::ChiSquare
-Summary(pl):	Modu≥ Perla Statistics::ChiSquare
-Summary(pt):	MÛdulo de Perl Statistics::ChiSquare
-Summary(pt_BR):	MÛdulo Perl Statistics::ChiSquare
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::ChiSquare
-Summary(sv):	Statistics::ChiSquare Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Statistics::ChiSquare
-Summary(zh_CN):	Statistics::ChiSquare Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Statistics::ChiSquare pro Perl
+Summary(da.UTF-8):   Perlmodul Statistics::ChiSquare
+Summary(de.UTF-8):   Statistics::ChiSquare Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Statistics::ChiSquare
+Summary(fr.UTF-8):   Module Perl Statistics::ChiSquare
+Summary(it.UTF-8):   Modulo di Perl Statistics::ChiSquare
+Summary(ja.UTF-8):   Statistics::ChiSquare Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Statistics::ChiSquare ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Statistics::ChiSquare
+Summary(pl.UTF-8):   Modu≈Ç Perla Statistics::ChiSquare
+Summary(pt.UTF-8):   M√≥dulo de Perl Statistics::ChiSquare
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Statistics::ChiSquare
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::ChiSquare
+Summary(sv.UTF-8):   Statistics::ChiSquare Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Statistics::ChiSquare
+Summary(zh_CN.UTF-8):   Statistics::ChiSquare Perl Ê®°Âùó
 Name:		perl-Statistics-ChiSquare
 Version:	0.5
 Release:	1
@@ -38,8 +38,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Statistics::ChiSquare - How random is your data?
 
-%description -l pl
-Statistics::ChiSquare - Jak bardzo losowe s± twoje dane?
+%description -l pl.UTF-8
+Statistics::ChiSquare - Jak bardzo losowe sƒÖ twoje dane?
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
