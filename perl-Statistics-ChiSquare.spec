@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Statistics::ChiSquare
 Summary(zh_CN.UTF-8):	Statistics::ChiSquare Perl 模块
 Name:		perl-Statistics-ChiSquare
 Version:	0.5
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
