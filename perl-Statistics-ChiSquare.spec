@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# don't perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Statistics
 %define		pnam	ChiSquare
+%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::ChiSquare Perl module
 Summary(cs.UTF-8):	Modul Statistics::ChiSquare pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::ChiSquare
@@ -30,6 +30,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1c02a8eabeed699e0e8b2de9f09dc2ca
+URL:		http://search.cpan.org/dist/Statistics-ChiSquare/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
