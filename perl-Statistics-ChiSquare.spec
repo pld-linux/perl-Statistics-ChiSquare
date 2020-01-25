@@ -4,7 +4,6 @@
 
 %define		pdir	Statistics
 %define		pnam	ChiSquare
-%include	/usr/lib/rpm/macros.perl
 Summary:	Statistics::ChiSquare Perl module
 Summary(cs.UTF-8):	Modul Statistics::ChiSquare pro Perl
 Summary(da.UTF-8):	Perlmodul Statistics::ChiSquare
