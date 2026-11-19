@@ -22,14 +22,14 @@ Summary(sv.UTF-8):	Statistics::ChiSquare Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Statistics::ChiSquare
 Summary(zh_CN.UTF-8):	Statistics::ChiSquare Perl 模块
 Name:		perl-Statistics-ChiSquare
-Version:	0.5
-Release:	3
+Version:	1.0000
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1c02a8eabeed699e0e8b2de9f09dc2ca
-URL:		http://search.cpan.org/dist/Statistics-ChiSquare/
+Source0:	https://www.cpan.org/authors/id/D/DC/DCANTRELL/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	7e96cfa48e5defbde19fb51ec907c3fe
+URL:		https://metacpan.org/dist/Statistics-ChiSquare/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -62,7 +62,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes
+%doc CHANGELOG README
 %{perl_vendorlib}/Statistics/ChiSquare.pm
 # empty autosplit.ix
 #%dir %{perl_vendorlib}/auto/Statistics/ChiSquare
